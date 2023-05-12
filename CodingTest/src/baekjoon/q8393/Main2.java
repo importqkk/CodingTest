@@ -1,5 +1,4 @@
 package baekjoon.q8393;
-
 import java.util.Scanner;
 
 public class Main2 {
