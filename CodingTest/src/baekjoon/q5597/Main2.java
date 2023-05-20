@@ -18,7 +18,7 @@ public class Main2 {
 		for(int i=1; i <= 30; i++) {
 			if(!arr[i]) sb.append(i).append("\n");
 		}
-		System.out.println(sb);
+		System.out.println(sb.toString());
 		
 	}
 }
