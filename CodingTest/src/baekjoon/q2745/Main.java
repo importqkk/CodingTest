@@ -19,7 +19,7 @@ public class Main {
 		
 		for(int i = n.length()-1; i >= 0; i--) {
 			char c = n.charAt(i);
-			if(c >= '0' && c <= '9') num = c;
+			if(c >= '0' && c <= '9') num = c - 48;
 			else num = c - 55;
 			ans += num * Math.pow(b, sq++);
 		}
