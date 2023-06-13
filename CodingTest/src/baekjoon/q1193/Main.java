@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		
+		StringBuilder sb = new StringBuilder();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int x = Integer.parseInt(br.readLine());
 		br.close();
@@ -17,8 +18,9 @@ public class Main {
 			cross++;
 		}
 		
-		if(cross % 2 == 0) System.out.println(x + "/" + (cross - x + 1));
-		else System.out.println((cross - x + 1) + "/" + x);
+		if(cross % 2 == 0) sb.append(x).append("/").append(cross - x + 1);
+		else sb.append(cross - x + 1).append("/").append(x);
+		System.out.println(sb.toString());
 		
 	}
 }
