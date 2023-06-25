@@ -10,10 +10,7 @@ public class Main {
 		long n = Integer.parseInt(br.readLine());
 		br.close();
 		
-		long col = n * 2;
-		long row = n * 2;
-		
-		System.out.println(col + row);
+		System.out.println(n * 4);
 		
 	}
 }
