@@ -14,12 +14,12 @@ public class Main {
 		
 		while(true) {
 			if(n%5 == 0) {
-				cnt -= n/5; break;
+				cnt += n/5; break;
 			}
 			else {
 				n -= 3; cnt++;
 			}
-			if(cnt < 0) {
+			if(n < 0) {
 				cnt = -1; break;
 			}
 		}
