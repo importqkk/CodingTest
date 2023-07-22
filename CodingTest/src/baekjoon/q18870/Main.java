@@ -29,7 +29,6 @@ public class Main {
 			}
 		}
 		
-		System.out.println(map);
 		StringBuilder sb = new StringBuilder();
 		for(int i=0; i<n; i++) {
 			sb.append(map.get(arr[i])).append(" ");

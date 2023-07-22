@@ -23,6 +23,7 @@ public class Main2 {
 		
 		List<Integer> sort = list.stream().distinct().collect(Collectors.toList());
 		Collections.sort(sort);
+		
 		StringBuilder sb = new StringBuilder();
 		for(int i=0; i<list.size(); i++) {
 			sb.append(sort.indexOf(list.get(i))).append(" ");
