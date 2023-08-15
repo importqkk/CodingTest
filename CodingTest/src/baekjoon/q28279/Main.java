@@ -14,8 +14,8 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		StringTokenizer st;
-		
-		for(int i=0; i<n; i++) {
+
+		while(n-- > 0) {
 			st = new StringTokenizer(br.readLine());
 			int order = Integer.parseInt(st.nextToken());
 			
