@@ -2,6 +2,7 @@ package baekjoon.q24511;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
@@ -11,7 +12,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 		
-		LinkedList<Integer> qs = new LinkedList<>();
+		Deque<Integer> qs = new LinkedList<>();
 		StringTokenizer isQs = new StringTokenizer(br.readLine(), " ");
 		StringTokenizer num = new StringTokenizer(br.readLine(), " ");
 		
