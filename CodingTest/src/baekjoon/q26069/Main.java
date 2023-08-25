@@ -11,9 +11,11 @@ public class Main {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		StringTokenizer st;
+		
 		Set<String> set = new HashSet<>();
 		set.add("ChongChong");
+		
+		StringTokenizer st;
 		for(int i=0; i<n; i++) {
 			st = new StringTokenizer(br.readLine());
 			String name1 = st.nextToken();
