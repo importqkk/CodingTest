@@ -23,9 +23,7 @@ public class Main {
 		if(z == 81) {
 			StringBuilder sb = new StringBuilder();
 			for(int i=0; i<n; i++) {
-				for(int j=0; j<n; j++) {
-					sb.append(a[i][j]).append(" ");
-				}
+				for(int j=0; j<n; j++) sb.append(a[i][j]).append(" ");
 				sb.append("\n");
 			}
 			System.out.println(sb.toString());
