@@ -18,7 +18,7 @@ public class Main {
 		br.close();
 		
 		calc(0, 0, n);
-		System.out.println(sb.toString());
+		System.out.println(sb);
 		
 	}
 	
