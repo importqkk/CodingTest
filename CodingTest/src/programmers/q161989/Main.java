@@ -1,6 +1,6 @@
 package programmers.q161989;
 
-// Lv1. 덧칠하기
+// Lv.1 덧칠하기
 // https://school.programmers.co.kr/learn/courses/30/lessons/161989
 public class Main {
 	class Solution {
