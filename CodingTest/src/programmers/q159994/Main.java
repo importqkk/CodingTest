@@ -23,9 +23,6 @@ public class Main {
 		String[] cards1 = {"i", "drink", "water"};
 		String[] cards2 = {"want", "to"};
 		String[] goal = {"i", "want", "to", "drink", "water"};
-//		String[] cards1 = {"i", "water", "drink"};
-//		String[] cards2 = {"want", "to"};
-//		String[] goal = {"i", "want", "to", "drink", "water"};
 		System.out.println(Solution.solution(cards1, cards2, goal));
 	}
 }
