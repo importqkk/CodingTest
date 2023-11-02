@@ -1,5 +1,4 @@
 package programmers.q160586;
-
 import java.util.HashMap;
 
 // Lv.1 대충 만든 자판
