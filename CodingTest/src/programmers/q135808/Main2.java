@@ -18,8 +18,7 @@ public class Main2 {
 	    }
 	}
 	public static void main(String[] args) {
-		int k = 3;
-		int m = 4;
+		int k = 3, m = 4;
 		int[] score = {1, 2, 3, 1, 2, 3, 1};
 		System.out.println(Solution.solution(k, m, score));
 	}
