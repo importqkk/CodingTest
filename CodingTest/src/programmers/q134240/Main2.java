@@ -1,5 +1,7 @@
 package programmers.q134240;
 
+//Lv.1 푸드 파이트 대회
+//https://school.programmers.co.kr/learn/courses/30/lessons/134240
 public class Main2 {
 	class Solution {
 	    public static String solution(int[] food) {
