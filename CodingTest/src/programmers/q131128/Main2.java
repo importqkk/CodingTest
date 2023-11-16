@@ -9,12 +9,10 @@ public class Main2 {
 	    	int[] xArr = new int[10], yArr = new int[10];
 	    	makeArr(X, xArr);
 	    	makeArr(Y, yArr);
-	    	for(int i=xArr.length-1; i>=0; i--) {
-	    		while(xArr[i] > 0 && yArr[i] > 0) {
-	    			xArr[i]--;
-	    			yArr[i]--;
-	    			answer.append(i);
-	    		}
+	    	for(int i=xArr.length-1; i>=0; i--) while(xArr[i] > 0 && yArr[i] > 0) {
+	    		xArr[i]--;
+	    		yArr[i]--;
+	    		answer.append(i);
 	    	}
 	    	if(answer.toString().equals("")) return "-1";
 	    	else if(answer.toString().startsWith("0")) return "0";
