@@ -1,5 +1,7 @@
 package programmers.q87389;
 
+// Lv.1 나머지가 1이 되는 수 찾기
+// https://school.programmers.co.kr/learn/courses/30/lessons/87389
 public class Main {
 	class Solution {
 	    public static int solution(int n) {
