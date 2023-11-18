@@ -33,7 +33,7 @@ public class Main2 {
 	        	// 	   String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
 	        	// 	   일 때 muzi에 해당하는 리스트(muzi frodo, muzi neo)와
 	        	// 	   frodo에 해당하는 리스트(frodo neo), 
-	        	// 	   apeach에 해당하는 리스트(apeach frodo,apeach muzi)가 각각 개별의 리스트로 생성된다.
+	        	// 	   apeach에 해당하는 리스트(apeach frodo, apeach muzi)가 반복에 따라 각각 개별의 리스트로 생성된다.
 	        	List<String> list = reportList.stream().filter(s -> s.startsWith(user + " ")).collect(Collectors.toList());
 	        	// "신고자ID 신고ID" 형식의 데이터가 들어있는 list에서 
 	        	// 신고ID를 key로 갖는 reportCnt의 value값(신고ID가 신고당한 횟수)을 가져와서
