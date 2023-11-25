@@ -23,7 +23,7 @@ public class Main {
 	        }
 	        System.out.println("cnt: " + cnt);
 	        System.out.println("zero: " + zero);
-	        answer[0] = zero+cnt<2 ? 6 : zero+cnt>6 ? map.get(6) : map.get(zero+cnt);
+	        answer[0] = zero+cnt<2 ? 6 : map.get(zero+cnt);
 	        answer[1] = cnt<2 ? 6 : map.get(cnt);
 	        return answer;
 	    }
