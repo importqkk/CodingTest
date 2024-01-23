@@ -9,11 +9,11 @@ public class Main {
 	        int[] fibs = new int[n+1];
 	        fibs[0] = 0; fibs[1] = fibs[2] = 1;
 	        for(int i=3; i<fibs.length; i++) fibs[i] = (fibs[i-2] + fibs[i-1]) % div;
-	        return fibs[fibs.length-1];
+	        return fibs[n];
 	    }
 	}
 	public static void main(String[] args) {
-		int n = 5;
+		int n = 3;
 		System.out.println(Solution.solution(n));
 	}
 }
