@@ -1,7 +1,7 @@
 package programmers.q87390;
 
 // Lv.2 n^2 배열 자르기
-// https://school.programmers.co.kr/learn/courses/30/lessons/87390#qna
+// https://school.programmers.co.kr/learn/courses/30/lessons/87390
 public class Main {
 	class Solution {
 	    public static int[] solution(int n, long left, long right) {
