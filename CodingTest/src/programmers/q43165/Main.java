@@ -4,18 +4,19 @@ package programmers.q43165;
 // https://school.programmers.co.kr/learn/courses/30/lessons/43165
 public class Main {
 	class Solution {
-		public static int answer = 0;
+		static int answer = 0;
 	    public static int solution(int[] numbers, int target) {
-	    	dfs(numbers, target, 0 ,0);
+	        dfs(numbers, 0, target, 0);
 	        return answer;
 	    }
-	    public static void dfs(int[] numbers, int target, int sum, int depth) {
-			if(depth == numbers.length) if(target == sum) answer++;
-			else {
-				dfs(numbers, target, sum + numbers[depth], depth + 1);
-				dfs(numbers, target, sum - numbers[depth], depth + 1);
-			}
-		}
+	    public static void dfs(int[] numbers, int depth, int target, int sum){
+	        if(depth == numbers.length) {
+	        	if(target == sum) answer++;
+	        } else {
+	            dfs(numbers, depth + 1, target, sum + numbers[depth]);
+	            dfs(numbers, depth + 1, target, sum - numbers[depth]);
+	        }
+	    }
 	}
 	public static void main(String[] args) {
 		int[] numbers = {1, 1, 1, 1, 1};
