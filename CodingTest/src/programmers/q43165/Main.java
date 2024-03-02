@@ -9,7 +9,7 @@ public class Main {
 	        dfs(numbers, 0, target, 0);
 	        return answer;
 	    }
-	    public static void dfs(int[] numbers, int depth, int target, int sum){
+	    public static void dfs(int[] numbers, int depth, int target, int sum) {
 	        if(depth == numbers.length) {
 	        	if(target == sum) answer++;
 	        } else {
