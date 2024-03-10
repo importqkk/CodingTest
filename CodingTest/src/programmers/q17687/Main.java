@@ -1,5 +1,7 @@
 package programmers.q17687;
 
+// Lv.2 [3차] n진수 게임
+// https://school.programmers.co.kr/learn/courses/30/lessons/17687
 public class Main {
 	class Solution {
 	    public static String solution(int n, int t, int m, int p) {
